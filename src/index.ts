@@ -50,8 +50,8 @@ const chartDataApp = new Hono().get('/', (c) => {
 })
 
 const app = new Hono()
-  // .route('/overview', overViewApp)
-  .route('/chart-data', chartDataApp)
+  .route('/overview', overViewApp)
+  .route('/chartdata', chartDataApp)
 
 export type AppType = typeof app
 export default app
