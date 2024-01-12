@@ -26,7 +26,7 @@ const route = app
       200,
     )
   })
-  .get('chart-data', (c) => {
+  .get('/chart-data', (c) => {
     const getRandomNumber = () => {
       return Math.floor(Math.random() * 5000) + 1000
     }
