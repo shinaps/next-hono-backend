@@ -1,8 +1,9 @@
-```
+# next-hono-backend
+
+```shell
 npm install
-npm run dev
 ```
 
-```
-npm run deploy
+```shell
+npm run dev
 ```
