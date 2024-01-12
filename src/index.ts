@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 
-const overViewApp = new Hono().get('/overview', (c) => {
+const overViewApp = new Hono().get('/', (c) => {
   return c.json(
     {
       totalRevenue: {
